@@ -3,6 +3,7 @@ import './globals.css'
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const instrument = Instrument_Sans({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ const RootLayout = ({ children }) => (
         <div className='contentMobile lg:content'>
           {children}
           <Analytics/>
+          <SpeedInsights/>
         </div>
         <Footer/>
       </main>
