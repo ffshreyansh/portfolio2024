@@ -2,6 +2,7 @@ import { Instrument_Sans } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 const instrument = Instrument_Sans({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ const RootLayout = ({ children }) => (
         <Nav />
         <div className='contentMobile lg:content'>
           {children}
+          <Analytics/>
         </div>
         <Footer/>
       </main>
