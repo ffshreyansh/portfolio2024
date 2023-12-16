@@ -5,7 +5,8 @@
 
 /* globals.css */
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -19,11 +20,37 @@ html, body {
 
 
 .content {
-  margin-top: 70px; /* Adjust the margin-top to be equal to the height of the Nav */
+  margin-top: 70px;
+  /* Adjust the margin-top to be equal to the height of the Nav */
   flex: 1;
 }
 
-.an1:hover{
-  transform:translate(-4px, 0px);
+
+.an1:hover {
+  transform: translate(-4px, 0px);
   transition: 0.2s ease;
 }
+
+@keyframes bounceSlow {
+
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounceSlow 4s infinite;
+}
+
+/* .bgHome{
+  background: url('/bg1.webp');
+  background-position: center;
+  opacity: 0.5;
+} */

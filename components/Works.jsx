@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 const Works = () => {
   return (
-    <div className='py-32 lg:px-0 w-full lg:w-3/4 mx-auto' id='works'>
+    <div className='py-10 lg:py-32 lg:px-0 w-full lg:w-3/4 mx-auto' id='works'>
       <div className='text-center px-2 lg:px-14'>
         <h3 className='text-2xl lg:text-4xl font-bold'>Modern Sleek Frontend & Robust Scalable Backend</h3>
         <p className='text-sm lg:text-xl font-normal mt-4 text-gray-600'>I use <a href='https://react.dev/'><u>React</u></a> & <a href='https://tailwindcss.com/'><u>TailwindCSS</u></a> to beautify the frontend where as <a href='https://nodejs.org/en'><u>NodeJs</u></a> & <a href='https://mongodb.com'><u>MongoDb</u></a> combined with <a href='https://nextjs.org'><u>NextJs</u></a> framework to develop scalable web applications.</p>

@@ -21,7 +21,7 @@ const WorksHomePage = () => {
       ref={ref}
     >
       <motion.div
-        className=' bg-yW w-full rounded-xl flex flex-col gap-8 lg:gap-0 lg:flex-row items-center p-8 lg:p-14 hover:shadow-lg hover:-mt-2 transition duration-300'
+        className=' bg-yW w-full rounded-xl flex flex-col gap-8 lg:gap-0 lg:flex-row items-center p-4 lg:p-14 hover:shadow-lg hover:-mt-2 transition duration-300'
         variants={fadeInUpVariants}
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
@@ -31,9 +31,9 @@ const WorksHomePage = () => {
         <div className='flex flex-col items-start justify-between h-full gap-4 pr-4'>
           <span className=' bg-red-600 px-3 py-1 rounded-full text-white font-bold text-xs'>NEW</span>
           <h2 className='text-2xl lg:text-4xl font-bold text-black'>Admin Dashboard</h2>
-          <p className='text-sm lg:text-xl font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum nemo harum in tenetur consequatur reiciendis, dolorem velit fuga ullam!</p>
+          <p className='text-md lg:text-xl font-normal'>A robust admin dashboard, effortlessly manage product stocks, add or remove items, and gain valuable insights into website analytics through integrated Google Analytics.</p>
           <div className='flex items-center gap-4'>
-            <Link href={"brinjal"} className='bg-black px-10 py-3 rounded-lg text-white text-sm font-medium'>View</Link>
+            <Link href={"/work/brinjal"} className='bg-black px-10 py-3 rounded-lg text-white text-sm font-medium'>View</Link>
             <Link href={"https://github.com/ffshreyansh"}>
               <img width="30" height="30" src="/github.svg" alt="github" />
             </Link>
@@ -43,7 +43,7 @@ const WorksHomePage = () => {
 
       </motion.div>
       <motion.div
-        className=' bg-yW w-full rounded-xl flex flex-col lg:flex-row gap-8 lg:gap-0 items-center p-8 lg:p-14 hover:shadow-xl transition duration-100'
+        className=' bg-yW w-full rounded-xl flex flex-col lg:flex-row gap-8 lg:gap-0 items-center p-4 lg:p-14 hover:shadow-xl transition duration-100'
         variants={fadeInUpVariants}
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
@@ -52,8 +52,8 @@ const WorksHomePage = () => {
       >
         <div className='flex flex-col items-start justify-between h-full gap-4 pr-4'>
           <span className=' bg-red-600 px-3 py-1 rounded-full text-white font-bold text-xs'>NEW</span>
-          <h2 className='text-4xl font-bold text-black'>Admin Dashboard</h2>
-          <p className='text-xl font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum nemo harum in tenetur consequatur reiciendis, dolorem velit fuga ullam!</p>
+          <h2 className='text-2xl lg:text-4xl font-bold text-black'>Admin Dashboard</h2>
+          <p className='text-md lg:text-xl font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum nemo harum in tenetur consequatur reiciendis, dolorem velit fuga ullam!</p>
           <div className='flex items-center gap-4'>
             <Link href={"brinjal"} className='bg-black px-10 py-3 rounded-lg text-white text-sm font-medium'>View</Link>
             <Link href={"https://github.com/ffshreyansh"}>

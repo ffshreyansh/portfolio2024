@@ -10,19 +10,24 @@ const fadeInVariants = {
 };
 
 
+
 const Home = () => {
   return (
-    <div className='px-2 lg:px-0'>
-      <section className="flex flex-col justify-center h-screen w-full lg:w-1/2 mx-auto">
+    <div className='px-2 lg:px-0 pb-20 '>
+      
+      <section className="flex flex-col justify-center h-screen w-full md:w-1/2 lg:w-1/2 mx-auto relative ">
+      
         <motion.h1
-          className="text-center text-4xl lg:text-8xl font-bold"
+          className="text-center text-4xl lg:text-8xl font-bold relative"
           initial="hidden"
           animate="visible"
           variants={fadeInVariants}
           transition={{ type: "spring", stiffness: 150, damping: 10, duration: 0.5, }}
         >
           From Pixels <br /> to Programming
+        <Link href={'/about'}><motion.img src='/imgg.png' className='rounded-full w-8 lg:w-16 absolute z-30 right-14 lg:right-12 -top-2 lg:-top-4 animate-bounce'/></Link>
         </motion.h1>
+
         <motion.p
           className="text-gray-500 text-xl lg:text-2xl text-center mt-6"
           initial="hidden"
@@ -38,14 +43,36 @@ const Home = () => {
          variants={fadeInVariants}
          transition={{ type: "spring", stiffness: 150, damping: 10, duration: 0.5, delay: 0.4 }}
         >
-          <Link href="https://upwork.com" className="bg-black px-6 font-medium hover:bg-green-600 transition-all rounded-md text-white py-3">Hire On Upwork</Link>
-          <Link href="https://upwork.com" className="flex items-center gap-3 font-medium border px-6 rounded-md  py-3">Resume
+          <Link href="https://www.upwork.com/workwith/shreyanshkumar" target='_blank' className="bg-black px-4 font-medium hover:bg-green-600 transition-all rounded-md text-white py-3">Hire On Upwork</Link>
+          <Link href="https://drive.google.com/file/d/1zJDIrML6zYXtVPTHQQ22A4or5pnxWl64/view?usp=sharing" target='_blank' className="flex items-center gap-3 font-medium border px-4 rounded-md  py-3">Resume
             <img width="16" height="16" src="https://img.icons8.com/pastel-glyph/64/document--v3.png" alt="document--v3"/>
           </Link>
         </motion.div>
+        <motion.img src="/dA.gif" className='w-8 mx-auto absolute left-1/2 bottom-20 right-1/2 -translate-x-1/2' alt="" 
+                 initial="hidden"
+                 animate="visible"
+                 variants={fadeInVariants}
+                 transition={{ type: "spring", stiffness: 150, damping: 10, duration: 0.5, delay: 0.6 }}
+        />
       </section>
       <WorksHomePage />
       <Works/>
+
+      <div
+        className=' bg-yW w-full mx-auto lg:w-3/4 rounded-xl flex flex-col lg:flex-row gap-8 lg:gap-0 items-center p-4 lg:p-14'>
+        <div className='flex flex-col items-start justify-between h-full gap-4 pr-4'>
+          <span className=' bg-red-600 px-3 py-1 rounded-full text-white font-bold text-xs'>NEW</span>
+          <h2 className='text-4xl font-bold text-black'>Admin Dashboard</h2>
+          <p className='text-md lg:text-xl font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum nemo harum in tenetur consequatur reiciendis, dolorem velit fuga ullam!</p>
+          <div className='flex items-center gap-4'>
+            <Link href={"brinjal"} className='bg-black px-10 py-3 rounded-lg text-white text-sm font-medium'>View</Link>
+            <Link href={"https://github.com/ffshreyansh"}>
+              <img width="30" height="30" src="/github.svg" alt="github" />
+            </Link>
+          </div>
+        </div>
+        <img className='w-full lg:w-1/2' src="/withoutBg/singUp.png" alt="" />
+      </div>
     </div>
   );
 };

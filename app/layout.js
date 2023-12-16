@@ -21,7 +21,7 @@ const RootLayout = ({ children }) => (
     <body className={instrument.className}>
       <main className='app'>
         <Nav />
-        <div className='content'>
+        <div className='contentMobile lg:content'>
           {children}
         </div>
         <Footer/>
