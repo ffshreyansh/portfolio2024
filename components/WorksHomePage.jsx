@@ -52,11 +52,11 @@ const WorksHomePage = () => {
       >
         <div className='flex flex-col items-start justify-between h-full gap-4 pr-4'>
           <span className=' bg-red-600 px-3 py-1 rounded-full text-white font-bold text-xs'>NEW</span>
-          <h2 className='text-2xl lg:text-4xl font-bold text-black'>Admin Dashboard</h2>
-          <p className='text-md lg:text-xl font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum nemo harum in tenetur consequatur reiciendis, dolorem velit fuga ullam!</p>
+          <h2 className='text-2xl lg:text-4xl font-bold text-black'>Loch - Newsletter</h2>
+          <p className='text-md lg:text-xl font-normal'>A frontend layout to handle newsletter data, It authenticated user's email and save the email in database. The modal part is interactive for user to showcase feature highlights of the company</p>
           <div className='flex items-center gap-4'>
-            <Link href={"brinjal"} className='bg-black px-10 py-3 rounded-lg text-white text-sm font-medium'>View</Link>
-            <Link href={"https://github.com/ffshreyansh"}>
+            <Link href={"https://loch-eight.vercel.app/"} target='_blank' className='bg-black px-10 py-3 rounded-lg text-white text-sm font-medium'>View</Link>
+            <Link href={"https://github.com/ffshreyansh"} target='_blank'>
               <img width="30" height="30" src="/github.svg" alt="github" />
             </Link>
           </div>
