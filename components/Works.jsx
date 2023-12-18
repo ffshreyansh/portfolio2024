@@ -13,7 +13,7 @@ const Works = () => {
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Brinjal -Shop & Beyond</h6>
               <p className=' leading-snug'>Fully equipped scalable ecommerce application to handle admin functions and client requests</p>
-              <Link href={"f"} className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+              <Link href={"f"} className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
@@ -22,7 +22,7 @@ const Works = () => {
               <h6 className='font-bold font-inter text-lg'>UxHack</h6>
               <p className=' leading-snug'>The World's only Hackathon platform for Product & Design professionals to Learn, Compete, Prepare & Earn
 </p>
-              <Link href={"https://uxhack.co"} target='_blank' className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+              <Link href={"https://uxhack.co"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
@@ -31,7 +31,7 @@ const Works = () => {
               <h6 className='font-bold font-inter text-lg'>UxHack</h6>
               <p className=' leading-snug'>The World's only Hackathon platform for Product & Design professionals to Learn, Compete, Prepare & Earn
 </p>
-              <Link href={"https://uxhack.co"} target='_blank' className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+              <Link href={"https://uxhack.co"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
@@ -39,7 +39,7 @@ const Works = () => {
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Developer Portfolio</h6>
               <p className=' leading-snug'>Portfolio Template for developers, designers, custom built, fast and optimized web app</p>
-              <Link href={"https://nivedita.vercel.app/"} className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+              <Link href={"https://nivedita.vercel.app/"} className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
         </div>
         
@@ -48,7 +48,7 @@ const Works = () => {
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Rolland Law Firm </h6>
               <p className=' leading-snug'>Professional portfolio for law firm, to showcase client testimonials, goals, process, team and firm's information.</p>
-              <Link href={"https://rolland-lawfirm.vercel.app/"} target='_blank' className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+              <Link href={"https://rolland-lawfirm.vercel.app/"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
@@ -56,7 +56,7 @@ const Works = () => {
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Aussie Youth Care</h6>
               <p className=' leading-snug'>Redesigned wordpress website using elementor as per the client's requirement.</p>
-              <Link href={"https://www.aussieyouthcare.com.au/"} target='_blank' className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+              <Link href={"https://www.aussieyouthcare.com.au/"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
         </div>
        

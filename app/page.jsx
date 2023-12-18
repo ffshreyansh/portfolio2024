@@ -77,7 +77,7 @@ const Home = () => {
       <Works/>
 
       <div
-        className=' bg-yW w-full mx-auto lg:w-3/4 rounded-xl flex flex-col lg:flex-row gap-8 lg:gap-0 items-center p-4 lg:p-14'>
+        className=' bg-yW w-full mx-auto lg:w-3/4 rounded-xl flex flex-col lg:flex-row gap-8 lg:gap-0 items-center p-4 lg:p-14 mt-20 lg:mt-0'>
         <div className='flex flex-col items-start justify-between h-full gap-4 w-full pr-4'>
           <span className=' bg-green-500 px-3 py-1 rounded-full text-white font-bold text-xs font-inter'>HIRE</span>
           <h2 className='text-4xl font-bold text-black'>Why me!?</h2>
@@ -86,17 +86,17 @@ const Home = () => {
             <div className='bg-white border w-full lg:w-1/3 rounded-md h-72 p-6 flex flex-col items-start justify-between'>
               <h5 className='font-bold '>Web Design & Layout</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi ex dolores pariatur voluptates a cum architecto magnam quibusdam eaque!</p>
-              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Hire me</Link>
+              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Work with me</Link>
             </div>
             <div className='bg-white border w-full lg:w-1/3 rounded-md h-72 p-6 flex flex-col items-start justify-between'>
               <h5 className='font-bold '>Web Optimization & SEO </h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi ex dolores pariatur voluptates a cum architecto magnam quibusdam eaque!</p>
-              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Hire me</Link>
+              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Work with me</Link>
             </div>
             <div className='bg-white border w-full lg:w-1/3 rounded-md h-72 p-6 flex flex-col items-start justify-between'>
               <h5 className='font-bold '>Web Scalability and Maintanence</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi ex dolores pariatur voluptates a cum architecto magnam quibusdam eaque!</p>
-              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Hire me</Link>
+              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Work with me</Link>
             </div>
           </div>
           {/* <div className='flex items-center gap-4'>
