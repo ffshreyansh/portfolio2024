@@ -4,6 +4,7 @@ import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import Preloader from '@/components/PreLoader';
 
 const instrument = Instrument_Sans({ subsets: ['latin'] })
 
@@ -13,6 +14,7 @@ export const metadata = {
 }
 
 const RootLayout = ({ children }) => (
+  
   <html lang='en'>
     <head>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -21,14 +23,17 @@ const RootLayout = ({ children }) => (
       <link rel="manifest" href="/site.webmanifest" />
     </head>
     <body className={instrument.className}>
-      <main className='app'>
+    <main className="app">
+    <Preloader>
         <Nav />
-        <div className='contentMobile lg:content'>
-          {children}
-          <Analytics/>
-          <SpeedInsights/>
+        <div className="contentMobile lg:content">
+          {/* Wrap your content with the Preloader component */}
+         {children}
+          <Analytics />
+          <SpeedInsights />
         </div>
-        <Footer/>
+        <Footer />
+        </Preloader>
       </main>
     </body>
   </html>

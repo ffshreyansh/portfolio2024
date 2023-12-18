@@ -29,7 +29,7 @@ const WorksHomePage = () => {
         transition={{ type: "spring", stiffness: 100, damping: 10, duration: 0.2 }}
       >
         <div className='flex flex-col items-start justify-between h-full gap-4 pr-4'>
-          <span className=' bg-red-600 px-3 py-1 rounded-full text-white font-bold text-xs'>NEW</span>
+          <span className=' bg-orange-400 px-3 py-1 rounded-full text-white font-bold text-xs'>In Progress</span>
           <h2 className='text-2xl lg:text-4xl font-bold text-black'>Admin Dashboard</h2>
           <p className='text-md lg:text-xl font-normal'>A robust admin dashboard, effortlessly manage product stocks, add or remove items, and gain valuable insights into website analytics through integrated Google Analytics.</p>
           <div className='flex items-center gap-4'>
@@ -39,7 +39,7 @@ const WorksHomePage = () => {
             </Link>
           </div>
         </div>
-        <img className='w-full lg:w-1/2' src="/withoutBg/admin.png" alt="" />
+        <img className='w-full lg:w-1/2' src="/withoutBg/admin.webp" alt="" />
 
       </motion.div>
       <motion.div
@@ -51,7 +51,7 @@ const WorksHomePage = () => {
         transition={{ type: "spring", stiffness: 150, damping: 10, duration: 0.5, delay: 0.2 }}
       >
         <div className='flex flex-col items-start justify-between h-full gap-4 pr-4'>
-          <span className=' bg-red-600 px-3 py-1 rounded-full text-white font-bold text-xs'>NEW</span>
+          <span className=' bg-red-600 px-3 py-1 rounded-full text-white font-bold text-xs'>New</span>
           <h2 className='text-2xl lg:text-4xl font-bold text-black'>Loch - Newsletter</h2>
           <p className='text-md lg:text-xl font-normal'>A frontend layout to handle newsletter data, It authenticated user's email and save the email in database. The modal part is interactive for user to showcase feature highlights of the company</p>
           <div className='flex items-center gap-4'>
@@ -61,7 +61,7 @@ const WorksHomePage = () => {
             </Link>
           </div>
         </div>
-        <img className='w-full lg:w-1/2' src="/withoutBg/singUp.png" alt="" />
+        <img className='w-full lg:w-1/2' src="/withoutBg/singUp.webp" alt="" />
       </motion.div>
     </div>
   );

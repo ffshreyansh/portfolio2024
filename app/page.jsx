@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import WorksHomePage from "@/components/WorksHomePage";
 import Link from "next/link";
 import Works from '@/components/Works';
+import { useState, useEffect } from 'react';
 
 const fadeInVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -12,8 +13,25 @@ const fadeInVariants = {
 
 
 const Home = () => {
+  // const [loading, setLoading] = useState(true);
+
+  // useEffect(() => {
+  //   // Simulate content loading (replace setTimeout with your actual loading logic)
+  //   const fakeContentLoading = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2000);
+
+  //   // Cleanup the timeout when the component unmounts
+  //   return () => clearTimeout(fakeContentLoading);
+  // }, []); // Run only on mount
+
+
+
   return (
-    <div className='px-2 lg:px-0 pb-20 '>
+   
+      // <div className="w-screen h-screen flex items-center justify-center">Loading...</div>
+  
+      <div className='px-2 lg:px-0 pb-20 '>
       
       <section className="flex flex-col justify-center h-screen w-full md:w-1/2 lg:w-1/2 mx-auto relative ">
       
@@ -48,7 +66,7 @@ const Home = () => {
             <img width="16" height="16" src="https://img.icons8.com/pastel-glyph/64/document--v3.png" alt="document--v3"/>
           </Link>
         </motion.div>
-        <motion.img src="/dA.gif" className='w-8 mx-auto absolute left-1/2 bottom-20 right-1/2 -translate-x-1/2' alt="" 
+        <motion.img src="/dA.gif" className='w-8 mx-auto transformGif' alt="arrow gif" 
                  initial="hidden"
                  animate="visible"
                  variants={fadeInVariants}
@@ -60,20 +78,38 @@ const Home = () => {
 
       <div
         className=' bg-yW w-full mx-auto lg:w-3/4 rounded-xl flex flex-col lg:flex-row gap-8 lg:gap-0 items-center p-4 lg:p-14'>
-        <div className='flex flex-col items-start justify-between h-full gap-4 pr-4'>
-          <span className=' bg-red-600 px-3 py-1 rounded-full text-white font-bold text-xs'>NEW</span>
-          <h2 className='text-4xl font-bold text-black'>Admin Dashboard</h2>
-          <p className='text-md lg:text-xl font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum nemo harum in tenetur consequatur reiciendis, dolorem velit fuga ullam!</p>
-          <div className='flex items-center gap-4'>
+        <div className='flex flex-col items-start justify-between h-full gap-4 w-full pr-4'>
+          <span className=' bg-green-500 px-3 py-1 rounded-full text-white font-bold text-xs font-inter'>HIRE</span>
+          <h2 className='text-4xl font-bold text-black'>Why me!?</h2>
+          <p>Combining multiple skills to develop a fast reliable and beautiful web application</p>
+          <div className='flex flex-col lg:flex-row items-center justify-between w-full gap-5'>
+            <div className='bg-white border w-full lg:w-1/3 rounded-md h-72 p-6 flex flex-col items-start justify-between'>
+              <h5 className='font-bold '>Web Design & Layout</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi ex dolores pariatur voluptates a cum architecto magnam quibusdam eaque!</p>
+              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Hire me</Link>
+            </div>
+            <div className='bg-white border w-full lg:w-1/3 rounded-md h-72 p-6 flex flex-col items-start justify-between'>
+              <h5 className='font-bold '>Web Optimization & SEO </h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi ex dolores pariatur voluptates a cum architecto magnam quibusdam eaque!</p>
+              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Hire me</Link>
+            </div>
+            <div className='bg-white border w-full lg:w-1/3 rounded-md h-72 p-6 flex flex-col items-start justify-between'>
+              <h5 className='font-bold '>Web Scalability and Maintanence</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi ex dolores pariatur voluptates a cum architecto magnam quibusdam eaque!</p>
+              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Hire me</Link>
+            </div>
+          </div>
+          {/* <div className='flex items-center gap-4'>
             <Link href={"brinjal"} className='bg-black px-10 py-3 rounded-lg text-white text-sm font-medium'>View</Link>
             <Link href={"https://github.com/ffshreyansh"}>
               <img width="30" height="30" src="/github.svg" alt="github" />
             </Link>
-          </div>
+          </div> */}
         </div>
-        <img className='w-full lg:w-1/2' src="/withoutBg/singUp.png" alt="" />
       </div>
     </div>
+    
+   
   );
 };
 

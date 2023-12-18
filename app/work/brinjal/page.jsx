@@ -30,31 +30,32 @@ const page = () => {
             </Link> 
           </div>
         </div>
-        <img className='w-full lg:w-1/2 h-full lg:h-80' src="/withoutBg/admin.png" alt="" />
+        <img className='w-full lg:w h-full lg:h-80' src="/withoutBg/brinjal.webp" alt="" />
       </motion.div>
       <div className='flex flex-col lg:flex-row items-start justify-start py-16 px-4 lg:px-0 h-fit gap-10'>
         <div className='flex flex-col justify-between gap-4 mb-4 lg:mb-0'>
           
           <span className='font-semibold text-3xl'>Requirements</span>
           <p className='leading-snug text-md lg:text-lg text-gray-500'>Clear requirements are the blueprint for a successful web app. They guide the choice of a robust tech stack, define essential features like admin control and e-commerce functionality, and ensure scalability and security measures from the start..</p>
-          <ul className="list-disc list-inside  ">
-            <li className="mb-1 text-lg">Choose Next.js, Tailwind CSS, Node.js, and MongoDB for a robust foundation</li>
-            <li className="mb-1 text-lg">Define features for stock management, product handling, and Google Analytics integration.</li>
-            <li className="mb-1 text-lg">Design a user-friendly experience for browsing, cart management, and seamless checkouts.</li>
-            <li className='mb-1 text-lg'>Plan for growth with scalable architecture and prioritize security measures, including user authentication and data encryption</li>
+          <ul className=" list-inside ">
+            <li className="text-md bg-yW p-2 rounded-lg mb-1 break-words">Tailwind CSS, Node.js, and MongoDB for a robust foundation</li>
+            <li className="text-md bg-yW p-2 rounded-lg mb-1">Features for stock management, product handling, and Google Analytics integration.</li>
+            <li className="text-md bg-yW p-2 rounded-lg mb-1">Design a user-friendly experience for browsing, cart management, and seamless checkouts.</li>
+            <li className='text-md bg-yW p-2 rounded-lg mb-1'>Plan for growth with scalable architecture and prioritize security measures, including user authentication and data encryption</li>
           </ul>
         </div>
-        <img src="/withoutBg/singUp.png"  className='w-full lg:w-1/2 h-full lg:h-fit' alt="" />
+        <img src="/withoutBg/admin.webp"  className='w-full lg:w-1/2 h-full lg:h-fit' alt="" />
       </div>
       <div className='flex flex-col-reverse lg:flex-row items-start justify-start py-2 px-4 lg:px-0 lg:py-16 h-fit gap-10'>
-      <img src="/withoutBg/singUp.png"  className='w-full lg:w-1/2' alt="" />
+      <img src="/withoutBg/brinjal2.webp"  className='w-full lg:w-1/2' alt="" />
         <div className='flex flex-col justify-between gap-4 mb-4 lg:mb-0'>
           <span className='font-semibold text-3xl'>Process</span>
-          <p className='leading-snug text-md lg:text-xl text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laudantium minus quos.</p>
-          <ul class="list-disc list-inside">
-            <li class="mb-1">Item 1</li>
-            <li class="mb-1">Item 2</li>
-            <li class="mb-1">Item 3</li>
+          <p className='leading-snug text-md lg:text-lg text-gray-500'>Clear requirements are the blueprint for a successful web app. They guide the choice of a robust tech stack, define essential features like admin control and e-commerce functionality, and ensure scalability and security measures from the start..</p>
+          <ul className=" list-inside ">
+            <li className="text-md bg-yW p-2 rounded-lg mb-1 break-words">Tailwind CSS, Node.js, and MongoDB for a robust foundation</li>
+            <li className="text-md bg-yW p-2 rounded-lg mb-1">Features for stock management, product handling, and Google Analytics integration.</li>
+            <li className="text-md bg-yW p-2 rounded-lg mb-1">Design a user-friendly experience for browsing, cart management, and seamless checkouts.</li>
+            <li className='text-md bg-yW p-2 rounded-lg mb-1'>Plan for growth with scalable architecture and prioritize security measures, including user authentication and data encryption</li>
           </ul>
         </div>
        

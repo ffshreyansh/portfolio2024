@@ -8,46 +8,58 @@ const Works = () => {
         <p className='text-sm lg:text-xl font-normal mt-4 text-gray-600'>I use <a href='https://react.dev/'><u>React</u></a> & <a href='https://tailwindcss.com/'><u>TailwindCSS</u></a> to beautify the frontend where as <a href='https://nodejs.org/en'><u>NodeJs</u></a> & <a href='https://mongodb.com'><u>MongoDb</u></a> combined with <a href='https://nextjs.org'><u>NextJs</u></a> framework to develop scalable web applications.</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-10">
-        <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/rool.png" alt="admin" />
+      <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
+          <img className=' rounded-t-xl' src="/withBg/brinjal.webp" alt="admin" />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
-              <h6 className='font-bold font-inter text-lg'>Admin Dashboard</h6>
-              <p className=' leading-snug'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reiciendis!</p>
+              <h6 className='font-bold font-inter text-lg'>Brinjal -Shop & Beyond</h6>
+              <p className=' leading-snug'>Fully equipped scalable ecommerce application to handle admin functions and client requests</p>
               <Link href={"f"} className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/admin.png" alt="admin" />
+          <img className=' rounded-t-xl' src="/withBg/uxh.webp" alt="admin" />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
-              <h6 className='font-bold font-inter text-lg'>Admin Dashboard</h6>
-              <p className=' leading-snug'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reiciendis!</p>
-              <Link href={"f"} className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+              <h6 className='font-bold font-inter text-lg'>UxHack</h6>
+              <p className=' leading-snug'>The World's only Hackathon platform for Product & Design professionals to Learn, Compete, Prepare & Earn
+</p>
+              <Link href={"https://uxhack.co"} target='_blank' className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/admin.png" alt="admin" />
+          <img className=' rounded-t-xl' src="/withBg/uxh.webp" alt="admin" />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
-              <h6 className='font-bold font-inter text-lg'>Admin Dashboard</h6>
-              <p className=' leading-snug'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reiciendis!</p>
-              <Link href={"f"} className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+              <h6 className='font-bold font-inter text-lg'>UxHack</h6>
+              <p className=' leading-snug'>The World's only Hackathon platform for Product & Design professionals to Learn, Compete, Prepare & Earn
+</p>
+              <Link href={"https://uxhack.co"} target='_blank' className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/admin.png" alt="admin" />
+          <img className=' rounded-t-xl' src="/withBg/portf.webp" alt="admin" />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
-              <h6 className='font-bold font-inter text-lg'>Admin Dashboard</h6>
-              <p className=' leading-snug'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reiciendis!</p>
-              <Link href={"f"} className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+              <h6 className='font-bold font-inter text-lg'>Developer Portfolio</h6>
+              <p className=' leading-snug'>Portfolio Template for developers, designers, custom built, fast and optimized web app</p>
+              <Link href={"https://nivedita.vercel.app/"} className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+          </div>
+        </div>
+        
+        <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
+          <img className=' rounded-t-xl' src="/withBg/rool.webp" alt="admin" />
+          <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
+              <h6 className='font-bold font-inter text-lg'>Rolland Law Firm </h6>
+              <p className=' leading-snug'>Professional portfolio for law firm, to showcase client testimonials, goals, process, team and firm's information.</p>
+              <Link href={"https://rolland-lawfirm.vercel.app/"} target='_blank' className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/admin.png" alt="admin" />
+          <img className=' rounded-t-xl' src="/withBg/aussie.webp" alt="admin" />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
-              <h6 className='font-bold font-inter text-lg'>Admin Dashboard</h6>
-              <p className=' leading-snug'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reiciendis!</p>
-              <Link href={"f"} className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
+              <h6 className='font-bold font-inter text-lg'>Aussie Youth Care</h6>
+              <p className=' leading-snug'>Redesigned wordpress website using elementor as per the client's requirement.</p>
+              <Link href={"https://www.aussieyouthcare.com.au/"} target='_blank' className='bg-black text-white px-4 py-2 text-sm rounded-md'>Explore</Link>
           </div>
         </div>
+       
        
         
       </div>

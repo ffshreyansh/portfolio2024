@@ -49,6 +49,16 @@ body {
   animation: bounceSlow 4s infinite;
 }
 
+
+
+.transformGif{
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%) !important;
+  bottom: 5rem;
+}
+
 /* .bgHome{
   background: url('/bg1.webp');
   background-position: center;
