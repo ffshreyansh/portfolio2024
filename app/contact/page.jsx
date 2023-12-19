@@ -1,6 +1,8 @@
 'use client'
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Helmet } from 'react-helmet';
+import Link from 'next/link';
 const page = () => {
     const fadeInVariants = {
         hidden: { opacity: 0, y: 20 },
@@ -9,6 +11,10 @@ const page = () => {
 
     return (
         <div className='w-full lg:w-3/4 mx-auto mt-10 px-4 py-20 lg:px-0 lg:py-20'>
+            <Helmet>
+            <title>Contact me @ Shreyansh Kumar</title>
+        <meta name="description" content="contact page of shreyansh kumar" />
+            </Helmet>
             <h1 className='text-2xl lg:text-5xl font-bold text-center lg:text-left'>Contact me</h1>
             <p className='text-lg lg:text-2xl text-gray-500 text-center lg:text-left mt-5'>If you have any question, just drop me a message.</p>
             <div className='flex flex-col lg:flex-row gap-6 mt-10 items-start justify-between w-full'>
@@ -49,13 +55,36 @@ const page = () => {
                     <a className='bg-white w-full lg:w-1/2 h-12 rounded-lg flex font-medium items-center justify-center border' href='mailto:hello@shreyanshkr.com?subject=Hello%20Shreyansh!'> Contact me </a>
                 </motion.div>
             </div>
-            <motion.div className='w-full bg-yW rounded-xl h-96 mt-20 py-14 px-10'
+            <motion.div className='w-full bg-yW rounded-xl h-fit mt-20 py-14 px-10'
             initial="hidden"
             animate="visible"
             variants={fadeInVariants}
             transition={{ type: "spring", stiffness: 150, damping: 10, duration: 0.5, delay: 0.6 }}
             >
                 <h6 className='text-center text-3xl font-bold'>Follow me and Join my journey</h6>
+                <p className='text-center text-xl mt-2'>Join me as we navigate the dynamic world of creativity, design & Code </p>
+                <div className='flex flex-col lg:flex-row w-3/4 mx-auto justify-between items-center mt-10'>
+                    <Link href={'https://instagram.com/ffshreyansh'} className='w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
+                        <img width={32} src="/insta.svg" alt="instagram logo" />
+                        Instagram
+                    </Link>
+                    <Link href={'https://linkedin.com/in/shreyansh-kr'} className='w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
+                        <img width={32} src="/linkedin.svg" alt="linkedin logo" />
+                        LinkedIn
+                    </Link>
+                    <Link href={'https://x.com/shreyanshtwts'} className='w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
+                        <img width={32} src="/x.svg" alt="x logo" />
+                        Twitter
+                    </Link>
+                    <Link href={'https://github.com/ffshreyansh'} className='w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
+                        <img width={32} src="/github.svg" alt="github logo" />
+                        Github
+                    </Link>
+                    <Link href={'https://peerlist.io/shreyanshkr'} className='w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
+                        <img width={18} src="/peer.svg" alt="peerlist logo" />
+                        PeerList
+                    </Link>
+                </div>
             </motion.div>
         </div>
     )
