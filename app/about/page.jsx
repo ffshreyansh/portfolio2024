@@ -35,7 +35,7 @@ const page = () => {
             <Link href={'https://instagram.com/ffshreyansh'}><img width={24} height={24} src="/insta.svg" alt="instagram logo" /></Link>
       </div>
         </div>
-        <img src="/imgg22.png" className=' rounded-r-2xl mx-auto lg:ml-auto w-full lg:w-1/2 '  alt="" />
+        <img src="/pfp1.webp" className='rounded-r-2xl mx-auto lg:ml-auto w-full lg:w-1/2 shadow-sm'  alt="profile picture" />
       </motion.div>
       <h5 className='text-2xl lg:text-4xl font-bold w-full lg:w-1/2 mt-20 leading-snug'>Empowering Growth and Productivity through Notion Templates</h5>
      

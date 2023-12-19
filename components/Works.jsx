@@ -19,7 +19,7 @@ const Works = () => {
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
           <img className=' rounded-t-xl' src="/withBg/uxh.webp" alt="admin" />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
-              <h6 className='font-bold font-inter text-lg'>UxHack</h6>
+              <h6 className='font-bold font-inter text-lg'>Crumbs - Dating Web App</h6>
               <p className=' leading-snug'>The World's only Hackathon platform for Product & Design professionals to Learn, Compete, Prepare & Earn
 </p>
               <Link href={"https://uxhack.co"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
@@ -28,7 +28,7 @@ const Works = () => {
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
           <img className=' rounded-t-xl' src="/withBg/uxh.webp" alt="admin" />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
-              <h6 className='font-bold font-inter text-lg'>UxHack</h6>
+              <h6 className='font-bold font-inter text-lg'>UxHack - Frontend</h6>
               <p className=' leading-snug'>The World's only Hackathon platform for Product & Design professionals to Learn, Compete, Prepare & Earn
 </p>
               <Link href={"https://uxhack.co"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
@@ -46,7 +46,7 @@ const Works = () => {
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
           <img className=' rounded-t-xl' src="/withBg/rool.webp" alt="admin" />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
-              <h6 className='font-bold font-inter text-lg'>Rolland Law Firm </h6>
+              <h6 className='font-bold font-inter text-lg'>Rolland Law Firm - Frontend</h6>
               <p className=' leading-snug'>Professional portfolio for law firm, to showcase client testimonials, goals, process, team and firm's information.</p>
               <Link href={"https://rolland-lawfirm.vercel.app/"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
@@ -54,12 +54,21 @@ const Works = () => {
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
           <img className=' rounded-t-xl' src="/withBg/aussie.webp" alt="admin" />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
-              <h6 className='font-bold font-inter text-lg'>Aussie Youth Care</h6>
+              <h6 className='font-bold font-inter text-lg'>Aussie Youth Care - Frontend</h6>
               <p className=' leading-snug'>Redesigned wordpress website using elementor as per the client's requirement.</p>
               <Link href={"https://www.aussieyouthcare.com.au/"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
         </div>
-       
+
+        <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300 blur-sm' >
+          <img className=' rounded-t-xl' src="/withBg/aussie.webp" alt="admin" />
+          <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
+              <h6 className='font-bold font-inter text-lg'>Next Project Ongoing</h6>
+              <p className=' leading-snug'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, et!</p>
+              <Link href={"#"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
+          </div>
+        </div>
+        
        
         
       </div>

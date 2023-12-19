@@ -13,19 +13,7 @@ const fadeInVariants = {
 
 
 const Home = () => {
-  // const [loading, setLoading] = useState(true);
-
-  // useEffect(() => {
-  //   // Simulate content loading (replace setTimeout with your actual loading logic)
-  //   const fakeContentLoading = setTimeout(() => {
-  //     setLoading(false);
-  //   }, 2000);
-
-  //   // Cleanup the timeout when the component unmounts
-  //   return () => clearTimeout(fakeContentLoading);
-  // }, []); // Run only on mount
-
-
+ 
 
   return (
    
@@ -95,6 +83,7 @@ const Home = () => {
             </div>
             <div className='bg-white border w-full lg:w-1/3 rounded-md h-72 p-6 flex flex-col items-start justify-between'>
               <h5 className='font-bold '>Web Scalability and Maintanence</h5>
+              
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi ex dolores pariatur voluptates a cum architecto magnam quibusdam eaque!</p>
               <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Work with me</Link>
             </div>
