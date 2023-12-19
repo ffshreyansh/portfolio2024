@@ -9,7 +9,7 @@ const Works = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-10">
       <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/brinjal.webp" alt="admin" />
+          <img className='w-full rounded-t-xl' src="/withBg/brinjal.webp" alt="Brinjal Website Image" width={'100%'} />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Brinjal -Shop & Beyond</h6>
               <p className=' leading-snug'>Fully equipped scalable ecommerce application to handle admin functions and client requests</p>
@@ -17,7 +17,7 @@ const Works = () => {
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/uxh.webp" alt="admin" />
+          <img className='w-full rounded-t-xl' src="/withBg/uxh.webp" alt="Crumbs web app image" width={'100%'} />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Crumbs - Dating Web App</h6>
               <p className=' leading-snug'>A web app aking to tinder, user can create profile, match, and chat with matched user.
@@ -26,7 +26,7 @@ const Works = () => {
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/uxh.webp" alt="admin" />
+          <img className='w-full rounded-t-xl' src="/withBg/uxh.webp" alt="Uxhack website image" width={'100%'} />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>UxHack - Frontend</h6>
               <p className=' leading-snug'>The World's only Hackathon platform for Product & Design professionals to Learn, Compete, Prepare & Earn
@@ -35,7 +35,7 @@ const Works = () => {
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/portf.webp" alt="admin" />
+          <img className='w-full rounded-t-xl' src="/withBg/portf.webp" alt="Portfolio website image" width={'100%'} />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Developer Portfolio</h6>
               <p className=' leading-snug'>Portfolio Template for developers, designers, custom built, fast and optimized web app</p>
@@ -44,7 +44,7 @@ const Works = () => {
         </div>
         
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/rool.webp" alt="admin" />
+          <img className='w-full rounded-t-xl' src="/withBg/rool.webp" alt="Rollland Lawfirm Image" width={'100%'} />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Rolland Law Firm - Frontend</h6>
               <p className=' leading-snug'>Professional portfolio for law firm, to showcase client testimonials, goals, process, team and firm's information.</p>
@@ -52,7 +52,7 @@ const Works = () => {
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className=' rounded-t-xl' src="/withBg/aussie.webp" alt="admin" />
+          <img className=' rounded-t-xl' src="/withBg/aussie.webp" alt="admin" width={'100%'} />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Aussie Youth Care - Frontend</h6>
               <p className=' leading-snug'>Redesigned wordpress website using elementor as per the client's requirement.</p>
@@ -61,7 +61,7 @@ const Works = () => {
         </div>
 
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300 blur-sm' >
-          <img className=' rounded-t-xl' src="/withBg/aussie.webp" alt="admin" />
+          <img className=' rounded-t-xl' src="/withBg/aussie.webp" alt="admin"  width={'100%'}/>
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Next Project Ongoing</h6>
               <p className=' leading-snug'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, et!</p>

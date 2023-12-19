@@ -40,7 +40,7 @@ const WorksHomePage = () => {
             </Link>
           </div>
         </div>
-        <img className='w-full lg:w-1/2' src="/withoutBg/admin.webp" alt="" />
+        <img className='w-full lg:w-1/2' src="/withoutBg/admin.webp" width={100} alt="Admin dashboard image" />
 
       </motion.div>
       <motion.div
@@ -64,7 +64,7 @@ const WorksHomePage = () => {
             </Link>
           </div>
         </div>
-        <img className='w-full lg:w-1/2' src="/withoutBg/singUp.webp" alt="" />
+        <img className='w-full lg:w-1/2' src="/withoutBg/singUp.webp" width={100} alt="sign up page image" />
       </motion.div>
     </div>
   );
