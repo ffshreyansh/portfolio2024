@@ -28,7 +28,7 @@ const page = () => {
             animate="visible"
             variants={fadeInVariants}
             transition={{ type: "spring", stiffness: 150, damping: 10, duration: 0.5, delay: 0.4 }}
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam odio error quasi deleniti delectus totam odit, rerum possimus, eius officiis nesciunt quidem ullam suscipit amet. Cumque suscipit nihil exercitationem!</motion.p>
+          >Hi Gusy</motion.p>
          <div className='flex items-center w-1/2 gap-3 mt-8 mb-4'>
       <Link href={'https://linkedin.com/in/shreyansh-kr'}><img width={24} height={24} src="/linkedin.svg" alt="linkedin logo" /></Link>
             <Link href={'https://github.com/ffshreyansh'}><img width={24} height={24} src="/github.svg" alt="github logo" /></Link>
@@ -37,7 +37,7 @@ const page = () => {
         </div>
         <img src="/pfp1.webp" className='rounded-r-2xl mx-auto lg:ml-auto w-full lg:w-1/2 shadow-sm'  alt="profile picture" />
       </motion.div>
-      <h5 className='text-2xl lg:text-4xl font-bold w-full lg:w-1/2 mt-20 leading-snug'>Empowering Growth and Productivity through Notion Templates</h5>
+      <h5 className='text-2xl lg:text-4xl font-bold w-full lg:w-1/2 mt-20 leading-snug'>Elevating Digital Presence and Performance : Crafting Striking Websites, Robust Applications</h5>
      
       <div className='flex flex-col lg:flex-row w-full mt-8 gap-4 lg:gap-2'>
           <p className='text-xl w-full lg:w-1/2'> Lorem ipsum dolor sit amet consectetur adipisicing elit. inventore illo, voluptas quasi possimus adipisci impedit eius totam minus nisi iste hic temporibus debitis nobis voluptates. Quo nemo voluptatum ullam.</p>

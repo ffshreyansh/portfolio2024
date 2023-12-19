@@ -71,21 +71,21 @@ const Home = () => {
           <h2 className='text-4xl font-bold text-black'>Why me!?</h2>
           <p>Combining multiple skills to develop a fast reliable and beautiful web application</p>
           <div className='flex flex-col lg:flex-row items-center justify-between w-full gap-5'>
-            <div className='bg-white border w-full lg:w-1/3 rounded-md h-72 p-6 flex flex-col items-start justify-between'>
+            <div className='bg-white border w-full lg:w-1/3 rounded-md h-fit p-6 flex flex-col items-start gap-4'>
               <h5 className='font-bold '>Web Design & Layout</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi ex dolores pariatur voluptates a cum architecto magnam quibusdam eaque!</p>
-              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Work with me</Link>
+              <p>I begin by creating the web layout, selecting colors, and conducting thorough internet research to find the best references for outstanding web design.</p>
+              {/* <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Work with me</Link> */}
             </div>
-            <div className='bg-white border w-full lg:w-1/3 rounded-md h-72 p-6 flex flex-col items-start justify-between'>
+            <div className='bg-white border w-full lg:w-1/3 rounded-md h-fit p-6 flex flex-col items-start gap-4'>
               <h5 className='font-bold '>Web Optimization & SEO </h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi ex dolores pariatur voluptates a cum architecto magnam quibusdam eaque!</p>
-              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Work with me</Link>
+              <p>Optimizing the website through processes like converting webp images, optimizing SEO with researched keywords, enhancing latest HTML tags and many more</p>
+              {/* <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Work with me</Link> */}
             </div>
-            <div className='bg-white border w-full lg:w-1/3 rounded-md h-72 p-6 flex flex-col items-start justify-between'>
+            <div className='bg-white border w-full lg:w-1/3 rounded-md h-fit p-6 flex flex-col items-start gap-4'>
               <h5 className='font-bold '>Web Scalability and Maintanence</h5>
               
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi ex dolores pariatur voluptates a cum architecto magnam quibusdam eaque!</p>
-              <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Work with me</Link>
+              <p>Implementing strategies such as optimizing server resources, scalable architectures, and ensuring seamless ongoing support for sustained performance.</p>
+              {/* <Link href={"/contact"} className='border w-full lg:w-1/2 h-12 rounded-md flex items-center justify-center bg-black text-white hover:text-white'>Work with me</Link> */}
             </div>
           </div>
           {/* <div className='flex items-center gap-4'>

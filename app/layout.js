@@ -9,8 +9,8 @@ import Preloader from '@/components/PreLoader';
 const instrument = Instrument_Sans({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Shreyansh Kr | Web Developer & Freelancer',
-  description: 'Portfolio of Shreyansh Kumar',
+  title: 'Shreyansh Kr - Web Developer & Freelancer',
+  description: 'Portfolio by Shreyansh Kumar',
 }
 
 const RootLayout = ({ children }) => (

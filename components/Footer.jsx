@@ -21,14 +21,14 @@ const Footer = () => {
         </div>
         <div className='flex flex-col items-start gap-2'>
           <span className='text-lg font-semibold  text-gray-500'>Contact</span>
-          <a href="">Twitter</a>
-          <a href="">LinkedIn</a>
-          <a href="">Github</a>
-          <a href="">PeerList</a>
+          <a href="https://twitter.com/shreyanshtwts">Twitter</a>
+          <a href="https://linkedin.com/in/shreyansh-kr">LinkedIn</a>
+          <a href="https://github.com/ffshreyansh">Github</a>
+          <a href="https://www.fiverr.com/shreyanshkr01">Fiverr</a>
         </div>
         <div className='flex flex-col items-start gap-2'>
           <span className='text-lg font-semibold text-gray-500'>Freelancing</span>
-          <a href="">Web Design</a>
+          <Link href="/contact">Web Design</Link>
           <a href="">Front End Development</a>
           <a href="">Full Stack Development</a>
           <a href="">MERN Bug Solve</a>
