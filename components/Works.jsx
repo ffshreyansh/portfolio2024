@@ -13,7 +13,7 @@ const Works = () => {
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Brinjal -Shop & Beyond</h6>
               <p className=' leading-snug'>Fully equipped scalable ecommerce application to handle admin functions and client requests</p>
-              <Link href={"f"} className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
+              <Link href={"https://brinjal.vercel.app/"} className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
@@ -60,12 +60,12 @@ const Works = () => {
           </div>
         </div>
 
-        <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300 blur-sm' >
+        <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300 blur-sm pointer-events-none'>
           <img className=' rounded-t-xl' src="/withBg/aussie.webp" alt="admin"  width={'100%'}/>
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Next Project Ongoing</h6>
               <p className=' leading-snug'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, et!</p>
-              <Link href={"#"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
+              <Link href={"#"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 cursor-none pointer-events-none font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
         </div>
         
