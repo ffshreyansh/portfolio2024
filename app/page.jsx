@@ -31,7 +31,7 @@ const Home = () => {
           transition={{ type: "spring", stiffness: 150, damping: 10, duration: 0.5, }}
         >
           From Pixels <br /> to Programming
-        <Link href={'/about'}><motion.img src='/imgg.png' className='rounded-full w-8 lg:w-16 absolute z-30 right-14 lg:right-12 -top-2 lg:-top-4 animate-bounce'/></Link>
+        <Link href={'/about'}><motion.img src='/imgg.webp' className='rounded-full w-8 lg:w-16 absolute z-30 right-14 lg:right-12 -top-2 lg:-top-4 animate-bounce'/></Link>
         </motion.h1>
 
         <motion.p
