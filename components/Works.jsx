@@ -17,7 +17,7 @@ const Works = () => {
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
-          <img className='w-full rounded-t-xl' src="/withBg/uxh.webp" alt="Crumbs web app image" width={'100%'} />
+          <img className='w-full rounded-t-xl' src="/withBg/crumbs.webp" alt="Crumbs web app image" width={'100%'} />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Crumbs - Dating Web App</h6>
               <p className=' leading-snug'>A web app aking to tinder, user can create profile, match, and chat with matched user.
