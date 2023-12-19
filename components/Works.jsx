@@ -20,9 +20,9 @@ const Works = () => {
           <img className=' rounded-t-xl' src="/withBg/uxh.webp" alt="admin" />
           <div className='px-8 py-6 flex flex-col items-start justify-between gap-3'>
               <h6 className='font-bold font-inter text-lg'>Crumbs - Dating Web App</h6>
-              <p className=' leading-snug'>The World's only Hackathon platform for Product & Design professionals to Learn, Compete, Prepare & Earn
+              <p className=' leading-snug'>A web app aking to tinder, user can create profile, match, and chat with matched user.
 </p>
-              <Link href={"https://uxhack.co"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
+              <Link href={"https://crumbs-web-app.vercel.app/"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link>
           </div>
         </div>
         <div className='flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300' >
