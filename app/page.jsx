@@ -51,7 +51,7 @@ const Home = () => {
         >
           <Link href="https://www.upwork.com/workwith/shreyanshkumar" target='_blank' className="bg-black px-4 font-medium hover:bg-green-600 transition-all rounded-md text-white py-3">Hire On Upwork</Link>
           <Link href="https://drive.google.com/file/d/1zJDIrML6zYXtVPTHQQ22A4or5pnxWl64/view?usp=sharing" target='_blank' className="flex items-center gap-3 font-medium border px-4 rounded-md  py-3">Resume
-            <amp-img width="16" height="16" src="https://img.icons8.com/pastel-glyph/64/document--v3.png" alt="document--v3"/>
+            <img width="16" height="16" src="https://img.icons8.com/pastel-glyph/64/document--v3.png" alt="document--v3"/>
           </Link>
         </motion.div>
         <motion.img src="/dA.gif" className='w-8 mx-auto transformGif' alt="arrow gif" 

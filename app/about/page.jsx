@@ -42,7 +42,7 @@ const page = () => {
             <Link href={'https://instagram.com/ffshreyansh'}><img width={24} height={24} src="/insta.svg" alt="instagram logo" /></Link>
       </div>
         </div>
-        <amp-img src="/pfp1.webp" className='rounded-r-2xl mx-auto lg:ml-auto w-full lg:w-1/2 shadow-sm' layout='responsive'  alt="profile picture" />
+        <img src="/pfp1.webp" className='rounded-r-2xl mx-auto lg:ml-auto w-full lg:w-1/2 shadow-sm' layout='responsive'  alt="profile picture" />
       </motion.div>
       <h5 className='text-2xl lg:text-4xl font-bold w-full lg:w-1/2 mt-20 leading-snug'>Elevating Digital Presence and Performance : Crafting Striking Websites, Robust Applications</h5>
      
