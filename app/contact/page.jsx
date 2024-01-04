@@ -63,24 +63,24 @@ const page = () => {
             >
                 <h6 className='text-center text-3xl font-bold'>Follow me and Join my journey</h6>
                 <p className='text-center text-xl mt-2'>Join me as we navigate the dynamic world of creativity, design & Code </p>
-                <div className='flex flex-col lg:flex-row w-3/4 mx-auto justify-between items-center mt-10'>
-                    <Link href={'https://instagram.com/ffshreyansh'} className='w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
+                <div className='flex flex-col lg:flex-row w-full lg:w-3/4 mx-auto gap-3 lg:gap-0 justify-between items-center mt-10'>
+                    <Link href={'https://instagram.com/shreyanshkr.dev'} className='w-full lg:w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
                         <img width={32} src="/insta.svg" alt="instagram logo" />
                         Instagram
                     </Link>
-                    <Link href={'https://linkedin.com/in/shreyansh-kr'} className='w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
+                    <Link href={'https://linkedin.com/in/shreyansh-kr'} className='w-full lg:w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
                         <img width={32} src="/linkedin.svg" alt="linkedin logo" />
                         LinkedIn
                     </Link>
-                    <Link href={'https://x.com/shreyanshtwts'} className='w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
+                    <Link href={'https://x.com/shreyanshtwts'} className='w-full lg:w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
                         <img width={32} src="/x.svg" alt="x logo" />
                         Twitter
                     </Link>
-                    <Link href={'https://github.com/ffshreyansh'} className='w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
+                    <Link href={'https://github.com/ffshreyansh'} className='w-full lg:w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
                         <img width={32} src="/github.svg" alt="github logo" />
                         Github
                     </Link>
-                    <Link href={'https://peerlist.io/shreyanshkr'} className='w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
+                    <Link href={'https://peerlist.io/shreyanshkr'} className='w-full lg:w-fit px-4 h-14 gap-2 rounded-lg flex items-center justify-center border bg-white'>
                         <img width={18} src="/peer.svg" alt="peerlist logo" />
                         PeerList
                     </Link>
