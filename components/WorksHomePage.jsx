@@ -52,19 +52,19 @@ const WorksHomePage = () => {
         transition={{ type: "spring", stiffness: 150, damping: 10, duration: 0.5, delay: 0.2 }}
       >
         <div className='flex flex-col items-start justify-between h-full gap-4 pr-4'>
-          <span className=' bg-red-600 px-3 py-1 rounded-full text-white font-bold text-xs'>New</span>
-          <h2 className='text-2xl lg:text-4xl font-bold text-black'>Loch - Newsletter</h2>
-          <p className='text-md lg:text-xl font-normal'>A frontend layout to handle newsletter data, It authenticated user's email and save the email in database. The modal part is interactive for user to showcase feature highlights of the company</p>
+          <span className=' bg-orange-400 px-3 py-1 rounded-full text-white font-bold text-xs'>In Progress</span>
+          <h2 className='text-2xl lg:text-4xl font-bold text-black'>Octagon - Agency</h2>
+          <p className='text-md lg:text-xl font-normal'>This portfolio serves as an agency's visual narrative, presenting a curated collection of their past projects, detailed work processes, and impactful frontend layouts.</p>
          
           <div className='flex flex-row w-full lg:w-1/2 items-center gap-4'>
-            <Link href={"https://loch-eight.vercel.app/"}  className='bg-black w-3/4 lg:w-3/4 h-12 flex items-center justify-center rounded-lg text-white text-sm font-medium'>View</Link>
+            <Link href={"https://octagon-tau.vercel.app/"}  className='bg-black w-3/4 lg:w-3/4 h-12 flex items-center justify-center rounded-lg text-white text-sm font-medium'>View</Link>
             <Link href={"https://github.com/ffshreyansh"} className='w-1/4 lg:w-1/4 h-12 rounded-lg font-medium flex items-center justify-center  '>
               <img width="30" height="30" src="/github.svg" alt="github" className='' />
               {/* <span className='inline lg:hidden'>Github</span> */}
             </Link>
           </div>
         </div>
-        <img className='w-full lg:w-1/2' src="/withoutBg/singUp.webp" width={100} alt="sign up page image" />
+        <img className='w-full lg:w-1/2' src="/withoutBg/octagon.webp" width={100} alt="sign up page image" />
       </motion.div>
     </div>
   );
