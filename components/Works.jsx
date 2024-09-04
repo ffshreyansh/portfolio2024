@@ -83,56 +83,6 @@ const Works = () => {
           </Link>
         </div>
         <div className="flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300">
-          <Link href={"https://leapsoft.co"} target="_blank">
-            <img
-              className="w-full rounded-t-xl"
-              src="/leap.png"
-              alt="Crumbs web app image"
-              width={"100%"}
-            />
-            <div className="px-8 py-6 flex flex-col items-start justify-between gap-3">
-              <h6 className="font-bold font-inter text-lg">
-                Leap Auto Tags - Shopify App
-              </h6>
-              <p className=" leading-snug">
-                A web app aking to tinder, user can create profile, match, and
-                chat with matched user.
-              </p>
-              <div className="flex items-center gap-3">
-                <img
-                  src="/react.svg"
-                  alt="react logo"
-                  className=" grayscale hover:grayscale-0 transition-all"
-                  title="ReactJs"
-                  width={24}
-                />
-                <img
-                  src="/mongo.svg"
-                  alt="mongodb logo"
-                  className=" grayscale hover:grayscale-0 transition-all"
-                  title="MongoDB"
-                  width={24}
-                />
-                <img
-                  src="/tailwind.svg"
-                  alt="tailwindcss logo"
-                  className=" grayscale hover:grayscale-0 transition-all"
-                  title="Tailwind CSS"
-                  width={24}
-                />
-                <img
-                  src="/nodejs.svg"
-                  alt="nodejs logo"
-                  className=" opacity-50 hover:opacity-100 transition-all"
-                  title="Nodejs"
-                  width={24}
-                />
-              </div>
-              {/* <Link href={"https://crumbs-web-app.vercel.app/"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link> */}
-            </div>
-          </Link>
-        </div>
-        <div className="flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300">
           <Link href={"https://brinjal.vercel.app/"}>
             <img
               className="w-full rounded-t-xl"
@@ -442,30 +392,6 @@ const Works = () => {
               {/* <Link href={"https://www.aussieyouthcare.com.au/"} target='_blank' className='bg-black text-white w-full lg:w-1/2 h-12 font-medium flex items-center justify-center text-sm rounded-lg'>Explore</Link> */}
             </div>
           </Link>
-        </div>
-
-        <div className="flex flex-col items-start h-fit border rounded-xl hover:-mt-1 hover:shadow-md transition-all duration-300 blur-sm pointer-events-none">
-          <img
-            className=" rounded-t-xl"
-            src="/withBg/aussie.webp"
-            alt="admin"
-            width={"100%"}
-          />
-          <div className="px-8 py-6 flex flex-col items-start justify-between gap-3">
-            <h6 className="font-bold font-inter text-lg">
-              Next Project Ongoing
-            </h6>
-            <p className=" leading-snug">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, et!
-            </p>
-            <Link
-              href={"#"}
-              target="_blank"
-              className="bg-black text-white w-full lg:w-1/2 h-12 cursor-none pointer-events-none font-medium flex items-center justify-center text-sm rounded-lg"
-            >
-              Explore
-            </Link>
-          </div>
         </div>
       </div>
     </div>
